@@ -7,7 +7,7 @@ export default class Stage {
         this.app = new Application({
             width,
             height,
-            backgroundColor: 0x1099bb,
+            backgroundColor: "black",
             view: document.getElementById('game-canvas') as HTMLCanvasElement,
         });
     }
